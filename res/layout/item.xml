@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <com.example.listitemanim.AnimItemView 
+        android:id="@+id/item_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <RelativeLayout 
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="#323232"
+            >
+            <TextView 
+                android:id="@+id/top"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:textColor="#FF0000"
+                android:text="Top"
+                />
+        </RelativeLayout>
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#AAAAAA"
+            android:layout_marginTop="48dp"
+            >
+            <Button 
+                android:id="@+id/open"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center_vertical"
+                android:text="打开"
+                />
+            <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center_vertical"
+                android:text="Item2"
+                />
+            <Button 
+                android:id="@+id/close"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center_vertical"
+                android:text="关闭"
+                />
+            <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center_vertical"
+                android:text="Item4"
+                />
+        </LinearLayout>
+    </com.example.listitemanim.AnimItemView>
+
+</LinearLayout>
